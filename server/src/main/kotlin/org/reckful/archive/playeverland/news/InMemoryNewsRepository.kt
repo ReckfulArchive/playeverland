@@ -11,7 +11,7 @@ private val hardcodedNews = News(
             title = "Your Digital Fit",
             date = LocalDate.of(2020, Month.MAY, 16),
             author = "RazorOS",
-            imageUrl = "TODO",
+            imageUrl = "https://reckfularchive.github.io/playeverland/images/outfits-clothing.jpg",
             description = """
                 In a social game such as Everland, we recognized very early that giving people 
                 an opportunity to express themselves visually was going to be very important. 
@@ -28,7 +28,7 @@ private val hardcodedNews = News(
             title = "An Everland Birthday",
             date = LocalDate.of(2020, Month.MAY, 9),
             author = "RazorOS",
-            imageUrl = "TODO",
+            imageUrl = "https://reckfularchive.github.io/playeverland/images/an-everland-birthday.jpg",
             description = """
                 As the stress test draws closer, we’ve been doing internal testing on Everland. 
                 We see progress with our builds every week as new features are introduced.
@@ -43,7 +43,7 @@ private val hardcodedNews = News(
             title = "Just the Beginning",
             date = LocalDate.of(2020, Month.APRIL, 1),
             author = "RazorOS",
-            imageUrl = "TODO",
+            imageUrl = "https://reckfularchive.github.io/playeverland/images/just-beginning-everland.jpg",
             description = "As we kick off our new website, we wanted to welcome you to our developer blog.",
             fullText = """
                 As we kick off our new website, we wanted to welcome you to our developer blog. 
