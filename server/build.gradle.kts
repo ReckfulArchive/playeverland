@@ -30,12 +30,14 @@ springBoot {
 }
 
 dependencies {
+    val kotlin_version: String by project
     val spring_boot_version: String by project
     implementation("org.springframework.boot:spring-boot-starter:$spring_boot_version")
     implementation("org.springframework.boot:spring-boot-starter-web:$spring_boot_version")
     implementation("org.springframework.boot:spring-boot-starter-logging:$spring_boot_version")
 
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:$kotlin_version")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test:$spring_boot_version")
 }
