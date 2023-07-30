@@ -2,7 +2,7 @@ openapi:
   info:
     title: PlayEverland Website API
     short-description: API endpoints for the playeverland.reckful-archive.org website
-    source-code-link: https://github.com/ReckfulArchive/playeverland/server
+    source-code-link: https://github.com/ReckfulArchive/playeverland
 
 springdoc:
   swagger-ui:
