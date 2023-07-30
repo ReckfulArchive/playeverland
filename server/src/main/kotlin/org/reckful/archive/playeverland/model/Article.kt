@@ -1,4 +1,4 @@
-package org.reckful.archive.playeverland.news
+package org.reckful.archive.playeverland.model
 
 import java.time.LocalDate
 

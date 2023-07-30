@@ -1,4 +1,4 @@
-package org.reckful.archive.playeverland.subscription
+package org.reckful.archive.playeverland.service
 
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service

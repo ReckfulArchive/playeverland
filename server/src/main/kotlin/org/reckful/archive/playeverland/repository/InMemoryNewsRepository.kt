@@ -1,5 +1,7 @@
-package org.reckful.archive.playeverland.news
+package org.reckful.archive.playeverland.repository
 
+import org.reckful.archive.playeverland.model.Article
+import org.reckful.archive.playeverland.model.News
 import org.springframework.stereotype.Repository
 import java.time.LocalDate
 import java.time.Month

@@ -1,5 +1,9 @@
-package org.reckful.archive.playeverland.news
+package org.reckful.archive.playeverland.service
 
+import org.reckful.archive.playeverland.dto.ArticleDTO
+import org.reckful.archive.playeverland.dto.NewsDTO
+import org.reckful.archive.playeverland.model.Article
+import org.reckful.archive.playeverland.repository.NewsRepository
 import org.springframework.stereotype.Service
 import java.time.Duration
 import java.time.LocalDate
