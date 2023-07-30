@@ -1,8 +1,10 @@
 plugins {
     kotlin("jvm")
 
-    id("org.jetbrains.kotlin.plugin.spring")
     id("org.springframework.boot")
+    id("io.spring.dependency-management")
+    kotlin("plugin.spring")
+
 }
 
 group = "org.reckful.archive"
@@ -30,14 +32,18 @@ springBoot {
 }
 
 dependencies {
-    val kotlin_version: String by project
-    val spring_boot_version: String by project
-    implementation("org.springframework.boot:spring-boot-starter:$spring_boot_version")
-    implementation("org.springframework.boot:spring-boot-starter-web:$spring_boot_version")
-    implementation("org.springframework.boot:spring-boot-starter-logging:$spring_boot_version")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+    implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-logging")
+    implementation("org.springframework.boot:spring-boot-starter-jdbc")
+    runtimeOnly("org.springframework.boot:spring-boot-devtools")
+
+    implementation("org.postgresql:postgresql")
+    implementation("org.flywaydb:flyway-core")
 
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
-    implementation("org.jetbrains.kotlin:kotlin-reflect:$kotlin_version")
 
-    testImplementation("org.springframework.boot:spring-boot-starter-test:$spring_boot_version")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
 }

@@ -1,14 +1,8 @@
-server:
-  port: 9833
-
 openapi:
   info:
     title: PlayEverland Website API
     short-description: API endpoints for the playeverland.reckful-archive.org website
-    source-code-link: https://github.com/ReckfulArchive/playeverland
-  serverUrls:
-    - https://playeverland-api.reckful-archive.org
-    - http://localhost:9833
+    source-code-link: https://github.com/ReckfulArchive/playeverland/server
 
 springdoc:
   swagger-ui:
